@@ -1,0 +1,30 @@
+{
+  "Actions": [
+    {
+      "Icon": "action/images/icon",
+      "Name": "Memory monitoring",
+      "States": [
+        {
+          "Image": "action/images/action"
+        }
+      ],
+      "Tooltip": "Memory monitoring",
+      "UUID": "com.sobolevn.memory.action"
+    }
+  ],
+  "SDKVersion": 2,
+  "Author": "sobolevn",
+  "Name": "Memory monitoring",
+  "Description": "Shows your how much memory is used right now",
+  "Icon": "action/images/icon",
+  "URL": "https://github.com/sobolevn/memory-streamdeck-plugin",
+  "Version": "1.0.0",
+  "Software": {
+    "MinimumVersion": "4.1"
+  },
+  "OS": [
+    { "Platform": "mac",  "MinimumVersion" : "10.11" },
+    { "Platform": "windows",  "MinimumVersion" : "10" }
+  ],
+  "CodePath": "dist/main"
+}
